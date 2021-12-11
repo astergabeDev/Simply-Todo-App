@@ -47,7 +47,7 @@ function showTasks(){
   todoList.innerHTML = newLiTag; 
   inputBox.value = ""; 
 }
-// delete task function
+
 function deleteTask(index){
   let getLocalStorageData = localStorage.getItem("New Todo");
   listArray = JSON.parse(getLocalStorageData);
